@@ -2,38 +2,67 @@
 
 ## Objective
 
-To explore and visualize the Iris dataset to understand patterns, relationships, and distributions.
+The objective of this task is to perform Exploratory Data Analysis (EDA) on the Iris dataset in order to understand data patterns, feature relationships, and statistical properties.
 
 ## Dataset
 
-Iris dataset loaded using seaborn library.
+* **Name:** Iris Dataset
+* **Source:** Loaded using the Seaborn library
+* **Description:**
+  The dataset contains measurements of iris flowers with the following features:
 
-## Steps Performed
+  * Sepal Length
+  * Sepal Width
+  * Petal Length
+  * Petal Width
+  * Species (Setosa, Versicolor, Virginica)
 
-* Loaded dataset using pandas
-* Displayed shape, columns, and first rows
-* Used info() and describe() for summary statistics
-* Created:
 
-  * Scatter plots
-  * Histograms
-  * Box plots
-  * Pair plots
+## Methodology
 
-## Tools & Libraries
+### Data Loading and Inspection
+
+* Loaded the dataset using pandas
+* Examined dataset shape and column names
+* Displayed initial records using `head()`
+
+### Data Understanding
+
+* Used `info()` to inspect data types and structure
+* Used `describe()` to generate summary statistics
+* Checked for missing values
+
+### Data Visualization
+
+To better understand the dataset, the following visualizations were created:
+
+* **Scatter Plots**
+  Used to analyze relationships between features and observe class separation
+
+* **Histograms**
+  Used to examine the distribution of individual features
+
+* **Box Plots**
+  Used to detect outliers and understand spread of data
+
+* **Pair Plot**
+  Used to visualize relationships between all feature combinations
+
+
+## Tools and Libraries
 
 * Python
 * Pandas
+* NumPy
 * Matplotlib
 * Seaborn
 
+
 ## Key Insights
 
-* Petal features clearly separate species
-* Setosa is easily distinguishable
-* Some minor outliers exist
-* Strong relationship between petal length and width
+* Petal length and petal width are the most significant features for distinguishing species
+* Setosa class is clearly separable from the other two classes
+* Minor outliers are present, particularly in sepal width
+* Strong correlation exists between petal-related features
 
-## Conclusion
 
-The dataset shows clear patterns and is useful for machine learning classification tasks.

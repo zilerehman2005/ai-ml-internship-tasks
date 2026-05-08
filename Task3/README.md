@@ -315,11 +315,5 @@ scikit-learn>=1.0.0
 
 ---
 
-## Author
-
-AI/ML Internship Task Submission  
-Created on Google Colab
-
----
 
 *Last Updated: May 2026*

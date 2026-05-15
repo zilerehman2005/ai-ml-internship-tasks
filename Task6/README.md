@@ -148,21 +148,11 @@ jupyter notebook notebooks/House_Price_Prediction.ipynb
 ```
 house-price-prediction-ml/
 │
-├── 📁 data/
-│   └── data.csv
+└── data.csv
 │
-├── 📁 notebooks/
-│   └── House_Price_Prediction.ipynb
-│
-├── 📁 src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── predict.py
-│
+└── House_Price_Prediction.ipynb
 ├── 📄 README.md
 ├── 📄 requirements.txt
-└── 📄 .gitignore
 ```
 
 ---
@@ -188,15 +178,6 @@ scikit-learn==1.3.0
 xgboost==1.7.6
 ```
 
----
-
-## 👤 Author
-
-**Senior AI/ML Engineer & Mentor**
-
-This project was designed as a complete end-to-end machine learning pipeline suitable for academic submissions, internship projects, and portfolio demonstrations.
-
----
 
 ## 📄 License
 
